@@ -1,0 +1,33 @@
+.Nav03 {
+  display: flex;
+  align-items: center;
+
+  :not(:first-child) {
+    padding-left: 18px;
+  }
+
+  &__membership {
+    img {
+      width: 2.2rem;
+    }
+  }
+
+  &__user {
+    font-size: 1.25rem;
+  
+    :first-child {
+      font-family: SUIT-Bold;
+    }
+  
+    :last-child {
+      padding-left: 10px;
+      font-family: SUIT-Medium;
+    }
+  }
+
+  &__menu {
+    cursor: pointer;
+  }
+}
+
+

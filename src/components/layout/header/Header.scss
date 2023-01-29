@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  border:1px solid red;
+  .header_wrap{
+    border:1px solid skyblue;
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    :not(:last-child){
+      margin-right:2rem;
+    }
+    .header_logo{
+      font-size:20px;
+      border:1px solid black;
+      width:7rem;
+    }
+  }
+  
+}
+
+// .header_logo{
+//   width: 20rem;
+// }

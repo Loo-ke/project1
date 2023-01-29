@@ -1,0 +1,24 @@
+.Nav01 {
+  width: 100%;
+  border:1px solid blue;
+  display:flex;
+
+  .Nav01__list {
+    display: flex;
+    // margin: 0 1.5rem;
+    border:1px solid green;
+    
+    :not(:last-child) {//마지막 항목을 제외한 패딩값
+      padding-right: 1.9rem;
+    }
+  }
+  .Nav01_menu_toggle{
+    border:1px solid red;
+    background: #fff;
+    font-size:1.5rem;
+  }
+  .Nav01__menu {
+    font-size: 1.25rem;
+    border:1px solid gray;
+  }
+}
