@@ -5,6 +5,8 @@ import Main from "./pages/main/Main";
 import Nav01 from "./components/layout/navigation/Nav01";
 import Layout from "./components/layout/Layout";
 import Header from "./components/layout/header/Header";
+import SignIn from "./pages/signin/SignIn.js";
+import SignUp from "./pages/signup/SignUp.js";
 
 function App() {
   return (
@@ -19,12 +21,12 @@ function App() {
 
           {/* <Route path="point" element={<PointLayout />}>
               <Route index element={<Point />} />
-            </Route>
-            <Route path="qna" element={<QnaLayout />} />
+          </Route> */}
+            {/* <Route path="qna" element={<QnaLayout />} /> */}
             <Route path="signin" element={<SignIn />} />
             <Route path="signup" element={<SignUp />} />
             
-
+{/*
             <Route path="mypage/*" element={<MypageLayout />}>
               <Route index element={<MyInfo />} />
               <Route path="edit" element={<MyEdit />} />
